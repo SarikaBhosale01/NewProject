@@ -1,0 +1,85 @@
+/* Add to your existing CSS file */
+.solution-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-image {
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .lead-text {
+    font-size: 1.2rem;
+    color:white;
+    margin: 1.5rem 0;
+  }
+  
+  .cta-button {
+    background: #1a237e;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #0d1a5c;
+  }
+  
+  .benefits-grid, .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .benefit-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .benefit-number {
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    background: #1a237e;
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+  }
+  
+  .feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .icon-container {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }

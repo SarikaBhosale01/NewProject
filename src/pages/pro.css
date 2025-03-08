@@ -1,0 +1,15 @@
+.card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .progress {
+    height: 25px;
+  }
+  
+  .progress-bar {
+    font-size: 0.9rem;
+  }
